@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://user-images.githubusercontent.com/85772373/167272673-12a576d5-2675-42e0-822f-5489735fb11f.png",
+    "link": "https://aweymo.github.io/mappinglanguage",
+    "text": "Andrew Weymouth"
+  },
+  "text": {
+    "more": "Objects are color coded by community, grouped by industry and arranged by date and location. Click object to open information pane which includes full text. As hyperlinking is unavailable for this tool, copy and paste the contents of the \"object location\" field to visit the item\u0027s page.",
+    "intro": "Representation of  Immigrant Communities in the Pacific Northwest, 1880-1930",
+    "title": "Mapping Language"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": "\"Community Color Codes: Black \u003d Magenta, Chinese \u003d Red, Irish \u003d Light Purple, Italian \u003d Orange, Filipino \u003d Dark Purple, Finnish \u003d Brown, German \u003d Cyan, Greek \u003d  Vivid Blue, Japanese \u003d Light Green, Korean \u003d Dark Green, Native Americans \u003d Strong Orange, Norwegian \u003d Dark Green, Polish \u003d Soft Orange, South Asian \u003d Lime Green"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "community",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
